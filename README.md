@@ -1,5 +1,5 @@
-# MIDI2GD
-A sequenced MIDI importer for Geometry Dash
+# MIDI2GD *Forked from guighub's original repository*
+A sequenced MIDI importer for Geometry Dash.
 ## How to use
 - Create a new level at 4x speed with music disabled by an "Edit Song" trigger. 4x speed (the one that looks like this: >>>>) is the speed I chose for the music because it allows for better note timing, but I might add an option for other speeds eventually.
 - Open MIDI2GD.exe found in the releases tab
