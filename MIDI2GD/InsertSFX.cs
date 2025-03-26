@@ -115,7 +115,7 @@ namespace MIDI2GD
 
         static float ToXOffset(BarBeatTicksTimeSpan pos)
         {
-            return (float)(pos.Bars * 16 + pos.Beats * 4 + (Math.Floor(pos.Ticks / 10f) * 10 / 480f) * 4) * 60 + 15;
+            return (float)(pos.Bars * 16 + pos.Beats * 4 + (Math.Floor(pos.Ticks / 10f) * 10 / 480f) * 8) * 60 + 15;
         }
     }
 }
